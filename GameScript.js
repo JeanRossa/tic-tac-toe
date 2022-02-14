@@ -17,7 +17,7 @@ function btClick(x){
         document.getElementById("bt_txt" + x).innerHTML = "&#11093"; // Inserir no <p> do botão
         document.getElementById("b" + x).style.background='#013345'; // Mudar a cor do fundo do botão
         document.getElementById("p1_fundo").style.backgroundColor = "#014513"; // Mudar a cor da esquerda (Jogador 1) para Verde 
-        document.getElementById("p2_fundo").style.backgroundColor = "#222"; // Mudar a cor da direita (Jogador 2) para Azul
+        document.getElementById("p2_fundo").style.backgroundColor = "#222"; // Mudar a cor da direita (Jogador 2) para Cinza Escuro
         gS[x - 1] = 2;
         turno--;
     }
