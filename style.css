@@ -1,0 +1,104 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.equalDivide tr td { 
+    width: 33%;
+    margin: 0%; 
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.multiplayerDiv {
+    width: 100%;
+    background-color: rgb(51, 47, 47);
+    padding: 10px;
+  }
+
+.p1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0em;
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+}
+
+.textButtons{
+    margin: 0em;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.button {
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    background-color: rgb(51, 47, 47);
+    border: 0px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    margin: 0.5em;
+}
+
+.button:disabled{
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(39, 34, 34);
+}
+
+.anim{
+    animation: teste 2s linear;
+}
+
+@keyframes teste{
+    0%{ color: rgb(4, 99, 4) }
+    100%{ color: grey }
+}
+
+.MultiplayerButtons{
+    background-color: rgb(25, 25, 25);
+    color: gray;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10 auto;
+    display: block;
+    width: 25%;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.MultiplayerButtons:hover{
+    background-color: rgb(40, 40, 40);    
+}
+
+.MultiplayerButtons:disabled{
+    background-color: rgb(25, 25, 25);
+    color: rgb(25, 25, 25);
+}
+
+.nickInput{
+    background-color: rgb(25, 25, 25);
+    color: gray;
+    border: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;  
+    margin:10px auto;
+    border-radius:10px;
+    display: block;
+}
+
+  
